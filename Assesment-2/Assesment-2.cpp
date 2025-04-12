@@ -66,6 +66,16 @@ void pali()
 			printf("sorry! string is not palindrome");
 		}
 }
+void sub()
+{
+	int i,ls;
+	ls=strlen(str);
+	printf(" length of string is:-%d",ls);
+	for(i=0;i<ls;i++)
+	{
+		printf("%s",str);
+	}
+}
 main()
 {
 	int choice,g;	
